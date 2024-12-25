@@ -19,7 +19,7 @@ pip install -r requirements
 
 file in `conduit/config/env.py` shows the env var required for this project
 * `CONDUIT_PRODUCTION`: optional, whether if this project is in production mode
-* `CONDUIT_JWT_sECRET_KEY`: **required**, configure the JWT secret key for this project
+* `CONDUIT_JWT_SECRET_KEY`: **required**, configure the JWT secret key for this project
 * `CONDUIT_DJANGO_SECRET_KEY`: optional, configure Django secret key for this project
 
 Before you run the server, please configure these env vars
